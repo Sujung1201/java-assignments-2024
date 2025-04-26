@@ -9,6 +9,7 @@ public class Exercise_8_3 {
         int end = input.nextInt();
 
         System.out.println("Fahrenheit\tCelsius");
+
         for (int f = start; f <= end; f++) {
             double celsius = (f - 32) * 5.0 / 9.0;
             System.out.printf("%d\t%.1f\n", f, celsius);

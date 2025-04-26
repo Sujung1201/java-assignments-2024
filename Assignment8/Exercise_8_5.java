@@ -11,6 +11,7 @@ public class Exercise_8_5 {
             if (s.equals("q")) break;
             else result += s;
         }
+
         System.out.println("\nResult: " + result);
     }
 }
