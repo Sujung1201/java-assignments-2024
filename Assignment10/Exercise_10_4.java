@@ -10,6 +10,7 @@ public class Exercise_10_4 {
         int code = input.nextInt();
 
         System.out.print("Encoded message: ");
+
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == ' ') {
                 System.out.print(' ');

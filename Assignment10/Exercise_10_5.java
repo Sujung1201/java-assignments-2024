@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Exercise_10_5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         System.out.print("Enter height: ");
         int height = scanner.nextInt();
 

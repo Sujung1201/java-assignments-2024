@@ -13,6 +13,7 @@ public class Exercise_10_2 {
             System.out.println("Strings different lengths.");
         } else {
             System.out.print("Result: ");
+
             for (int i = 0; i < s1.length(); i++) {
                 System.out.print(s1.charAt(i) == s2.charAt(i) ? "_" : "*");
             }

@@ -6,6 +6,7 @@ public class Exercise_10_3 {
 
         System.out.print("Enter max: ");
         int max = input.nextInt();
+
         System.out.println();
 
         for (int i = 1; i <= max; i++) {
