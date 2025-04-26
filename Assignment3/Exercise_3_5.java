@@ -12,6 +12,5 @@ public class Exercise_3_5 {
 
         System.out.println("Tip: $" + tip);
         System.out.println("Total: $ " + (subtotal + tip));
-
     }
 }
