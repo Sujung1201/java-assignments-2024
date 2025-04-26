@@ -14,6 +14,7 @@ public class Exercise_8_4 {
             sum += number;
             count++;
         }
+
         double ave = count > 0 ? (double) sum / count : 0;
         System.out.println("Positive Count: " + positiveCount);
         System.out.println("Negative Count: " + negativeCount);
